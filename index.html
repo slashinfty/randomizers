@@ -1,0 +1,20 @@
+<html ng-app="randoApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Video Game Randomizers</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+        <script src="angjs.js"></script>
+    </head>
+    <body ng-controller="RandoCtrl">
+        <table>
+            <tr>
+                <th>System</th>
+                <th>Game</th>
+            </tr>
+            <tr ng-repeat="randomizer in randomizers">
+                <td>{{randomizer.system}}</td>
+                <td>{{randomizer.name}}</td>
+            </tr>
+        </table>
+    </body>
+</html>
