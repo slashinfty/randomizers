@@ -1,11 +1,14 @@
 var randoApp = angular.module('randoApp', []);
 randoApp.controller('RandoCtrl', function ($scope, $http) {
-    $http({
-        method: 'GET',
-        url: 'randomizers.json'
-    }).then(function(data) {
+    $http.get('randomizers.json').success(function(data) {
         $scope.randomizers = data;
-    },function(error) {
-        console.log(error);
     });
+    $scope.sortField = 'name';
+    $scope.showPopover = false;
+});
+randoApp.directive("notePopover", function() {
+    return {
+        restrict: 'A',
+        template: '<a href={{randomizer.url}} ng-mouseover="showPopover=true;" ng-mouseleave="showPopover=false;">{{randomizer.name}}<div class="popover" ng-show="showPopover">{{randomizer.note}}</div></a>'
+    }
 });

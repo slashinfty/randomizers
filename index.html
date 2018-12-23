@@ -2,18 +2,52 @@
     <head>
         <meta charset="utf-8">
         <title>Video Game Randomizers</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+        <link href="index.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
         <script src="angjs.js"></script>
     </head>
     <body ng-controller="RandoCtrl">
-        <table>
+        <h1>Video Game Randomizers</h1>
+        <h3>About</h3>
+        <p>
+        This site is a semi-comprehensive and accessible list of video game randomizaers. A randomizer is a program that randomizes or shuffles specific data in a video game to create a unique experience for players each and every time they play the game.
+        </p>
+        <h3>Contribute</h3>
+        <p>
+        If you would like to see a randomizer added to this list, you can submit the following Google Form. Alternatively, you can join the <a href="https://discordapp.com/invite/tEGFUZW">Randomizer Central Discord</a>, a great place to discuss existing randomizer and how to develop new randomizers. If you'd like to contribute directly to this project, the <a href="https://github.com/slashinfty/randomizers">source code</a> is available.
+        </p>
+        <h3>Search</h3>
+        <p>
+        Use the following search box to search the entire list. You can also click on headers to sort the table.
+        </p>
+        <p>Search:<input ng-model="query" type="text" size="55"/></p>
+        <table class="center">
             <tr>
-                <th>System</th>
-                <th>Game</th>
+                <th><a href="" ng-click="sortField = 'system'">System</a></th>
+                <th><a href="" ng-click="sortField = 'name'">Game</a></th>
+                <th><a href="" ng-click="sortField = 'source'">Source</a></th>
+                <th><a href="" ng-click="sortField = '-web'">Web-Based?</a></th>
+                <th><a href="" ng-click="sortField = '-windows'">Windows?</a></th>
+                <th><a href="" ng-click="sortField = '-mac'">Mac OS?</a></th>
+                <th><a href="" ng-click="sortField = '-linux'">Linux?</a></th>
+                <th><a href="" ng-click="sortField = '-old'">Depreciated?</a></th>
             </tr>
-            <tr ng-repeat="randomizer in randomizers">
+            <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField">
                 <td>{{randomizer.system}}</td>
-                <td>{{randomizer.name}}</td>
+                <td ng-if="randomizer.hasOwnProperty('note')"><span note-popover></span></td>
+                <td ng-if="!randomizer.hasOwnProperty('note')"><a href={{randomizer.url}}>{{randomizer.name}}</a></td>
+                <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href={{randomizer.source}}>Source</td>
+                <td ng-if="!randomizer.hasOwnProperty('source')"><a href={{randomizer.source}}></td>
+                <td ng-if="randomizer.web" class="center">&#10004;</td>
+                <td ng-if="!randomizer.web"></td>
+                <td ng-if="randomizer.windows" class="center">&#10004;</td>
+                <td ng-if="!randomizer.windows"></td>
+                <td ng-if="randomizer.mac" class="center">&#10004;</td>
+                <td ng-if="!randomizer.mac"></td>
+                <td ng-if="randomizer.linux" class="center">&#10004;</td>
+                <td ng-if="!randomizer.linux"></td>
+                <td ng-if="randomizer.old" class="center">&#10004;</td>
+                <td ng-if="!randomizer.old"></td>
             </tr>
         </table>
     </body>
