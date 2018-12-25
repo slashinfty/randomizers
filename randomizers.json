@@ -313,5 +313,168 @@
         "note": "nonlinear roguelike",
         "platform": "multi",
         "old": false
+    },
+    {
+        "name": "Dragon Warrior Monsters 2 (Cobi's Journey & Tara's Adventure)",
+        "system": "GBC",
+        "url": "https://cowness.net/DWM2R/",
+        "source": "https://github.com/TheCowness/DWM2Randomizer",
+        "note": "customizable",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Dragon Warrior Monsters 2 (Cobi's Journey & Tara's Adventure)",
+        "system": "GBC",
+        "url": "https://www.woodus.com/forums/index.php?/topic/36046-dragon-warrior-monsters-2-randomizer/",
+        "note": "severe changes",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy V (Grand Cross)",
+        "system": "SNES/GBA",
+        "url": "https://github.com/abyssonym/grand_cross",
+        "source": "https://github.com/abyssonym/grand_cross",
+        "note": "jobs, items, monster stats",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy V (Ancient Cave)",
+        "system": "SNES",
+        "url": "https://www.romhacking.net/hacks/957/",
+        "note": "rougelike - english translation: https://talking-time.net/showthread.php?t=13303",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy V Advance",
+        "system": "GBA",
+        "url": "https://discordapp.com/invite/vvu3TXY",
+        "note": "requires Discord account",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy V Advance",
+        "system": "GBA",
+        "url": "https://www.dropbox.com/s/jq1vdp650j0bf8d/ffvarandomizer.zip?dl=0",
+        "note": "job abilities - Mild output is normal randomization, while Extra Spicy output also randomizes job abilities independently between characters - Drag & drop original USA ROM on randomizer.exe to randomize",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy V Advance",
+        "system": "GBA",
+        "url": "https://www.romhacking.net/forum/index.php?topic=18507.0",
+        "note": "roguelike",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy VI (Exit Randomizer)",
+        "system": "SNES",
+        "url": "https://abyssonym.wordpress.com/2017/09/13/ff6-exit-rando/",
+        "platform": "windows",
+        "old": false,
+    },
+    {
+        "name": "Final Fantasy VI (Beyond Chaos Gaiden)",
+        "system": "SNES",
+        "url": "https://abyssonym.wordpress.com/2018/04/02/176/",
+        "source": "https://github.com/abyssonym/beyondchaos_gaiden",
+        "note": "extensive changes with configurable severity, optional roguelike - compatible with unofficial hack Brave New World - Python version available at source",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy VI (Randomizer)",
+        "system": "SNES",
+        "url": "https://archive.codeplex.com/?p=ff6randomizer",
+        "source": "https://archive.codeplex.com/?p=ff6randomizer",
+        "note": "extensive conservative changes for competitive play - Extract /releases/0/55609bb9-67b8-4ce4-8ff0-4673a618e35f from the archive and rename it to FinalFantasy6Randomizer.exe to make it work - source code included in archive",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy VI (Beyond Chaos)",
+        "system": "SNES",
+        "url": "https://github.com/abyssonym/beyondchaos",
+        "source": "https://github.com/abyssonym/beyondchaos",
+        "note": "extensive severe changes for casual play",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy IX (Meteor On FFIX)",
+        "system": "PS1",
+        "url": "http://forums.qhimm.com/index.php?topic=16285.0",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy X (Save Editor)",
+        "system": "PS2",
+        "url": "https://forums.pcsx2.net/Thread-FFXED-Final-Fantasy-X-Save-Editor",
+        "note": "randomizer only affects save data - requires mymc and PCSX2",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy XII The Zodiac Age",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/finalfantasy12/mods/72",
+        "source": "https://github.com/Bartz24/FF12Randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy Mystic Quest (A Terrible Secret)",
+        "system": "SNES",
+        "url": "https://github.com/abyssonym/terriblesecret",
+        "source": "https://github.com/abyssonym/terriblesecret",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy Tactics (Rumble Chaos Crashdown)",
+        "system": "PS1",
+        "url": "https://github.com/abyssonym/rumble_chaos_crashdown",
+        "source": "https://github.com/abyssonym/rumble_chaos_crashdown",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Fire Emblem: Genealogy of the Holy War",
+        "system": "SNES",
+        "url": "https://serenesforest.net/forums/index.php?/topic/80806-fire-emblem-4-randomizer/",
+        "source": "https://github.com/jespoketheepic/JespokesFE4randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Fire Emblem: The Binding Blade / Fire Emblem / Fire Emblem: The Sacred Stones",
+        "system": "GBA",
+        "url": "https://github.com/lushen124/Universal-FE-Randomizer",
+        "source": "https://github.com/lushen124/Universal-FE-Randomizer",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Fire Emblem: The Sacred Stones",
+        "system": "GBA",
+        "url": "https://serenesforest.net/forums/index.php?/topic/81571-fe8-self-randomizing-rom-v11/",
+        "note": "randomizer embedded into the ROM",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Fire Emblem Fates",
+        "system": "3DS",
+        "url": "https://gbatemp.net/threads/wip-fire-emblem-fates-randomizer.452268/",
+        "source": "https://github.com/thane98/3DSFE-Randomizer",
+        "platform": "multi",
+        "old": false
     }
 ]
