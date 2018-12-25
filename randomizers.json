@@ -333,7 +333,7 @@
     },
     {
         "name": "Final Fantasy V (Grand Cross)",
-        "system": "SNES/GBA",
+        "system": "SNES GBA",
         "url": "https://github.com/abyssonym/grand_cross",
         "source": "https://github.com/abyssonym/grand_cross",
         "note": "jobs, items, monster stats",
@@ -681,6 +681,109 @@
         "system": "NES",
         "url": "https://www.romhacking.net/hacks/4106/",
         "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Metroid (Nestroid)",
+        "system": "NES",
+        "url": "https://www.romhacking.net/utilities/1257/",
+        "note": "items, elevators",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Metroid (Metrandomizer)",
+        "system": "NES",
+        "url": "https://www.romhacking.net/forum/index.php?topic=25918.0",
+        "note": "map randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Metroid II: Return of Samus",
+        "system": "GB",
+        "url": "https://liamnajor.github.io/Metroid-2-Randomizer/",
+        "source": "https://github.com/liamnajor/Metroid-2-Randomizer/",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Super Metroid (Door Randomizer)",
+        "system": "SNES",
+        "url": "https://archive.codeplex.com/?p=smdoor",
+        "source": "https://archive.codeplex.com/?p=smdoor",
+        "note": "rename /releases/1/a60245ee-c346-4473-9cc9-2f19ae1e1095 to SuperMetroidDoor0.3a.rar, extract it, then run supermetroidv0.3.exe",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Super Metroid (VARIA - Items and Areas)",
+        "system": "SNES",
+        "url": "https://randommetroidsolver.pythonanywhere.com/",
+        "source": "https://github.com/theonlydude/RandomMetroidSolver",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Super Metroid (Arcade: Endless Mode)",
+        "system": "SNES",
+        "url": "http://www.metroidconstruction.com/hack.php?id=357",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Super Metroid (Route Randomizer)",
+        "system": "SNES",
+        "url": "http://www.metroidconstruction.com/resource.php?id=102",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Metroid: Zero Mission",
+        "system": "GBA",
+        "url": "http://forum.metroidconstruction.com/index.php/topic,4559.0.html",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Metroid Prime",
+        "system": "GCN",
+        "url": "https://randomizer.metroidprime.run/",
+        "source": "https://github.com/etaylor8086/prime-randomizer-web",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Metroid Prime/Metroid Prime 2: Echoes",
+        "system": "GCN",
+        "url": "https://m2k2.taigaforum.com/post/randomizer_release.html",
+        "note": "requires a winnable seed generator for either Metroid Prime (https://github.com/EthanArmbrust/new-prime-seed-generator/releases) or Metroid Prime 2: Echoes (https://github.com/henriquegemignani/randovania)",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Phantasy Star II",
+        "system": "SG",
+        "url": "https://github.com/MrStarbird/PSII-Randomizer/releases",
+        "source": "https://github.com/MrStarbird/PSII-Randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Phantasy Star IV: The End of the Millennium",
+        "system": "SG",
+        "url": "https://github.com/MrStarbird/PStar4-Randomizer/releases",
+        "source": "https://github.com/MrStarbird/PStar4-Randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Pokemon (Universal Randomizer)",
+        "system": "GB GBC GBA DS",
+        "url": "https://pokehacks.dabomstew.com/randomizer/index.php",
+        "source": "https://github.com/Dabomstew/universal-pokemon-randomizer",
+        "note": "supports all generation 1 through 5 games on the systems listed",
+        "platform": "multi",
         "old": false
     }
 ]

@@ -35,7 +35,7 @@
                 <th><a href="" ng-click="sortField = 'platform'">Platform</a></th>
             </tr>
             <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField" ng-class="randomizer.old ? 'old' : 'new'">
-                <td>{{randomizer.system}}</td>
+                <td class="maxwide2">{{randomizer.system}}</td>
                 <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><span note-popover></span></td>
                 <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href={{randomizer.url}}>{{randomizer.name}}</a></td>
                 <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href={{randomizer.source}}>Source</td>

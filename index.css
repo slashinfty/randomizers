@@ -18,6 +18,10 @@ td.maxwide {
     max-width: 450px;
 }
 
+td.maxwide2 {
+    max-width: 35px;
+}
+
 .popover {
     position: relative;
     z-index: 1;
