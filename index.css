@@ -14,6 +14,10 @@ tr.old {
     background-color: #d1d1d1;
 }
 
+td.maxwide {
+    max-width: 450px;
+}
+
 .popover {
     position: relative;
     z-index: 1;

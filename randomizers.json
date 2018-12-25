@@ -454,7 +454,7 @@
         "old": false
     },
     {
-        "name": "Fire Emblem: The Binding Blade / Fire Emblem / Fire Emblem: The Sacred Stones",
+        "name": "Fire Emblem: The Binding Blade/Fire Emblem/Fire Emblem: The Sacred Stones",
         "system": "GBA",
         "url": "https://github.com/lushen124/Universal-FE-Randomizer",
         "source": "https://github.com/lushen124/Universal-FE-Randomizer",
@@ -475,6 +475,212 @@
         "url": "https://gbatemp.net/threads/wip-fire-emblem-fates-randomizer.452268/",
         "source": "https://github.com/thane98/3DSFE-Randomizer",
         "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Heretic",
+        "system": "PC",
+        "url": "https://www.moddb.com/games/heretic/addons/hereticplus",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Kirby's Adventure",
+        "system": "NES",
+        "url": "https://austinbricker.com/KA-Rando/",
+        "source": "https://github.com/Aquova/KA-Rando",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Kirby Super Star",
+        "system": "SNES",
+        "url": "https://github.com/FruitMage/kss-randomizer",
+        "source": "https://github.com/FruitMage/kss-randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Kirby: Nightmare in Dream Land",
+        "system": "GBA",
+        "url": "https://github.com/aquova/KNDL-Rando/releases",
+        "source": "https://github.com/Aquova/KNDL-Rando",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Super Mario Bros. (Medley)",
+        "system": "NES",
+        "url": "https://www.romhacking.net/hacks/1996/",
+        "note": "area shuffler - randomly selects areas from SMB1, SMB2J, and VSSMB",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Super Mario Bros. (Level-Headed)",
+        "system": "NES",
+        "url": "https://github.com/Coolcord/Level-Headed/releases",
+        "source": "https://github.com/Coolcord/Level-Headed",
+        "note": "level generator",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Super Mario Bros. 2",
+        "system": "NES",
+        "url": "https://github.com/tetraly/smb2r/releases",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Super Mario Bros. 3",
+        "system": "NES",
+        "url": "https://sites.google.com/site/smb3randomizer/home",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Super Mario World",
+        "system": "SNES",
+        "url": "https://authorblues.github.io/smwrandomizer/",
+        "source": "https://github.com/authorblues/smwrandomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Super Mario Land 2: 6 Golden Coins",
+        "system": "GB",
+        "url": "http://sml2r.download/",
+        "source": "https://github.com/slashinfty/sml2randomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Super Mario RPG: Legend of the Seven Stars",
+        "system": "SNES",
+        "url": "https://randomizer.smrpgspeedruns.com/",
+        "source": "https://github.com/DorkmasterFlek/smrpg_web_randomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Paper Mario",
+        "system": "N64",
+        "url": "https://www.youtube.com/watch?v=C6Tk_jZGrlA",
+        "source": "https://github.com/MrCheeze/paper-mario-randomizer",
+        "note": "see video description for more details",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Paper Mario: The Thousand-Year Door",
+        "system": "GCN",
+        "url": "https://www.speedrun.com/tools/TTYD_Cheats_6tf19.zip",
+        "note": "items, loading zones, roguelike",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Paper Mario: The Thousand-Year Door",
+        "system": "GCN",
+        "url": "https://www.dropbox.com/s/twt9121mhzti9w3/Misc_Randomizers.zip?dl=0",
+        "note": "item drops per battle, enemy HP - requires a cheat engine supporting Gecko codes",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Paper Mario: The Thousand-Year Door (Shufflizer)",
+        "system": "GCN",
+        "url": "https://github.com/jdaster64/shufflizer/releases",
+        "source": "https://github.com/jdaster64/shufflizer",
+        "note": "shuffled items, Pit of 100 Trials enemy loadouts",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Mega Man 2",
+        "system": "NES",
+        "url": "https://github.com/duckfist/MM2Random/releases",
+        "source": "https://github.com/duckfist/MM2Random",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man 2 (Endless Wind)",
+        "system": "NES",
+        "url": "http://www.geocities.jp/misty_earn/RM2endless.zip",
+        "note": "rougelike",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man 3 (Endless)",
+        "system": "NES",
+        "url": "https://www.himaq5.xyz/rock5easily/archive/rock3endless.zip",
+        "note": "rougelike",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man 4 (Endless)",
+        "system": "NES",
+        "url": "https://www.himaq5.xyz/rock5easily/archive/rock4endless.zip",
+        "note": "rougelike",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man 5 (Endless)",
+        "system": "NES",
+        "url": "https://www.himaq5.xyz/rock5easily/archive/rock5endless.zip",
+        "note": "rougelike",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man 4 (Randomizer)",
+        "system": "NES",
+        "url": "http://www.geocities.jp/borokobo/zip/Rock4Randomizer101.zip",
+        "note": "enemies, items",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man 6 (Weapon Randomizer)",
+        "system": "NES",
+        "url": "http://bin.smwcentral.net/u/24848/mm6-weapon-randomizer-v0.1.zip",
+        "source": "https://gist.github.com/Raidenthequick/d701eb2c936a28f4d23bf330d8b192bc",
+        "note": "ZIP file contains two BPS files, patch on a NTSC-U Mega Man 6 ROM to play",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man X",
+        "system": "SNES",
+        "url": "https://github.com/TokyoScarab/MMX-Randomizer/releases",
+        "source": "https://github.com/TokyoScarab/MMX-Randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Mega Man Battle Network 3 (White & Blue Version)",
+        "system": "GBA",
+        "url": "http://ngplus.net/index.php?/files/file/37-mega-man-battle-network-3-randomizer/",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Mega Man Battle Network 5: Team Colonel/Mega Man Battle Network 6 (Cybeast Falzar & Cybeast Gregar)",
+        "system": "GBA",
+        "url": "https://forums.therockmanexezone.com/mmbn-randomizer-t15216.html",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Rockman 3: Winternight (Mod - Endless Version)",
+        "system": "NES",
+        "url": "https://www.romhacking.net/hacks/4106/",
+        "platform": "windows",
         "old": false
     }
 ]
