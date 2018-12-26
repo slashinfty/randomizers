@@ -30,10 +30,10 @@
         <p class="flex"><label>Search: </label><input ng-model="query" type="text" class="fill"/></p>
         <table class="center">
             <tr>
-                <th><a href="" ng-click="sortField = 'system'; reverse = !reverse">System</a></th>
-                <th><a href="" ng-click="sortField = 'name'; reverse = !reverse">Game</a></th>
-                <th><a href="" ng-click="sortField = 'source'; reverse = !reverse">Source</a></th>
-                <th><a href="" ng-click="sortField = 'platform'; reverse = !reverse">Platform</a></th>
+                <th><a href="" ng-click="checkSort('system')">System</a></th>
+                <th><a href="" ng-click="checkSort('name')">Game</a></th>
+                <th><a href="" ng-click="checkSort('source')">Source</a></th>
+                <th><a href="" ng-click="checkSort('platform')">Platform</a></th>
             </tr>
             <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField:reverse" ng-class="randomizer.old ? 'old' : 'new'">
                 <td class="maxwide2">{{randomizer.system}}</td>
