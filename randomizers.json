@@ -876,6 +876,7 @@
         "name": "The Legend of Zelda",
         "system": "NES",
         "url": "https://sites.google.com/site/zeldarandomizer/",
+        "note": "extensive changes",
         "platform": "windows",
         "old": false
     },
@@ -884,6 +885,7 @@
         "system": "NES",
         "url": "http://z1r.tetra.ly/",
         "source": "https://github.com/tetraly/zelda-randomizer",
+        "note": "major changes, difficulty settings, progressive updates",
         "platform": "online",
         "old": false
     },
