@@ -4,11 +4,4 @@ randoApp.controller('RandoCtrl', function ($scope, $http) {
         $scope.randomizers = data;
     });
     $scope.sortField = 'name';
-    $scope.showPopover = false;
-});
-randoApp.directive("notePopover", function() {
-    return {
-        restrict: 'A',
-        template: '<a href={{randomizer.url}} ng-mouseover="showPopover=true;" ng-mouseleave="showPopover=false;">{{randomizer.name}}<div class="popover" ng-show="showPopover">{{randomizer.note}}</div></a>'
-    }
 });
