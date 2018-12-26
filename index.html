@@ -36,9 +36,9 @@
             </tr>
             <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField:reverse" ng-class="randomizer.old ? 'old' : 'new'">
                 <td class="maxwide2">{{randomizer.system}}</td>
-                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}} target="_blank"">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen" class="mobile">{{randomizer.note}}</p></td>
-                <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}} target="_blank"">{{randomizer.name}}</a></td>
-                <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href={{randomizer.source}} target="_blank">Source</td>
+                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen" class="mobile">{{randomizer.note}}</p></td>
+                <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a></td>
+                <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href="{{randomizer.source}}" target="_blank">Source</td>
                 <td ng-if="!randomizer.hasOwnProperty('source')"><a href={{randomizer.source}}></td>
                 <td ng-if="randomizer.platform === 'multi'" class="center">Multi</td>
                 <td ng-if="randomizer.platform === 'online'" class="center">Online</td>
