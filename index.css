@@ -3,7 +3,7 @@
         border-collapse: collapse;
         table-layout: auto;
         width: 100%;
-        font-size: 24px;
+        font-size: 30px;
     }
     
     td.maxwide {
@@ -11,8 +11,18 @@
     }
     
     .mobile {
-        font-size: 24px;
+        font-size: 30px;
     }
+    
+    .flex {
+        display: flex;
+        font-size: 30px;
+    }
+    
+    .fill {
+        flex: 1;
+    }
+    
 }
 
 table.center {
