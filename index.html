@@ -26,7 +26,7 @@
         <p>
         If a randomizer has a gray background, it has been depreciated and its features are available in other randomizers for the same game.
         </p>
-        <p>Search: <input ng-model="query" type="text" size="64"/></p>
+        <p class="mobile">Search: <input ng-model="query" type="text" size="64"/></p>
         <table class="center">
             <tr>
                 <th><a href="" ng-click="sortField = 'system'">System</a></th>
@@ -36,7 +36,7 @@
             </tr>
             <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField" ng-class="randomizer.old ? 'old' : 'new'">
                 <td class="maxwide2">{{randomizer.system}}</td>
-                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen">{{randomizer.note}}</p></td>
+                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen" class="mobile">{{randomizer.note}}</p></td>
                 <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}">{{randomizer.name}}</a></td>
                 <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href={{randomizer.source}}>Source</td>
                 <td ng-if="!randomizer.hasOwnProperty('source')"><a href={{randomizer.source}}></td>
