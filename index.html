@@ -14,7 +14,7 @@
         </p>
         <h3>Contribute</h3>
         <p>
-        If you would like to see a randomizer added to this list, you can submit the following Google Form. Alternatively, you can join the <a href="https://discordapp.com/invite/tEGFUZW">Randomizer Central Discord</a>, a great place to discuss existing randomizer and how to develop new randomizers. If you'd like to contribute directly to this project, the <a href="https://github.com/slashinfty/randomizers">source code</a> is available.
+        If you would like to see a randomizer added to this list, you can submit the following Google Form. Alternatively, you can join the <a href="https://discordapp.com/invite/tEGFUZW" target="_blank">Randomizer Central Discord</a>, a great place to discuss existing randomizer and how to develop new randomizers. If you'd like to contribute directly to this project, the <a href="https://github.com/slashinfty/randomizers" target="_blank">source code</a> is available.
         </p>
         <h3>Search</h3>
         <p>
@@ -36,9 +36,9 @@
             </tr>
             <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField:reverse" ng-class="randomizer.old ? 'old' : 'new'">
                 <td class="maxwide2">{{randomizer.system}}</td>
-                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen" class="mobile">{{randomizer.note}}</p></td>
-                <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}">{{randomizer.name}}</a></td>
-                <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href={{randomizer.source}}>Source</td>
+                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}} target="_blank"">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen" class="mobile">{{randomizer.note}}</p></td>
+                <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}} target="_blank"">{{randomizer.name}}</a></td>
+                <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href={{randomizer.source}} target="_blank">Source</td>
                 <td ng-if="!randomizer.hasOwnProperty('source')"><a href={{randomizer.source}}></td>
                 <td ng-if="randomizer.platform === 'multi'" class="center">Multi</td>
                 <td ng-if="randomizer.platform === 'online'" class="center">Online</td>
