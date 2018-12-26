@@ -1,6 +1,7 @@
 <html ng-app="randoApp">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Video Game Randomizers</title>
         <link href="index.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
@@ -26,7 +27,7 @@
         <p>
         If a randomizer has a gray background, it has been depreciated and its features are available in other randomizers for the same game.
         </p>
-        <p class="flex"><label>Search: </label><input ng-model="query" type="text" size="64" class="fill"/></p>
+        <p class="flex"><label>Search: </label><input ng-model="query" type="text" class="fill"/></p>
         <table class="center">
             <tr>
                 <th><a href="" ng-click="sortField = 'system'; reverse = !reverse">System</a></th>
@@ -36,7 +37,7 @@
             </tr>
             <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField:reverse" ng-class="randomizer.old ? 'old' : 'new'">
                 <td class="maxwide2">{{randomizer.system}}</td>
-                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen" class="mobile">{{randomizer.note}}</p></td>
+                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen">{{randomizer.note}}</p></td>
                 <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a></td>
                 <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href="{{randomizer.source}}" target="_blank">Source</td>
                 <td ng-if="!randomizer.hasOwnProperty('source')"><a href={{randomizer.source}}></td>
