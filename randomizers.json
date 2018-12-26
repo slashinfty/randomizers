@@ -785,5 +785,227 @@
         "note": "supports all generation 1 through 5 games on the systems listed",
         "platform": "multi",
         "old": false
+    },
+    {
+        "name": "Pokemon Crystal Version (Randofuser)",
+        "system": "GBC",
+        "url": "https://github.com/xCrystal/crystal-randofuser/releases",
+        "source": "https://github.com/xCrystal/crystal-randofuser",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Pokemon (pk3DS)",
+        "system": "3DS",
+        "url": "https://projectpokemon.org/home/forums/topic/34377-pk3ds-3ds-rom-editor-randomizer/",
+        "source": "https://github.com/kwsch/pk3DS",
+        "note": "supports all generation 6 and 7 games on the Nintendo 3DS",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Pokemon Colosseum/Pokemon XD: Gale of Darkness",
+        "system": "GCN",
+        "url": "https://projectpokemon.org/home/files/file/2463-gale-of-darkness-tool-osx-colosseum-tool/",
+        "platform": "mac",
+        "old": false
+    },
+    {
+        "name": "Pokemon Mystery Dungeon",
+        "system": "DS",
+        "url": "https://github.com/Aissurteivos/mdrngzer/releases",
+        "source": "https://github.com/Aissurteivos/mdrngzer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Pokemon Trading Card Game",
+        "system": "GBC",
+        "url": "https://github.com/xCrystal/TCGRandomizer/releases",
+        "source": "https://github.com/xCrystal/TCGRandomizer",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Team Fortress 2",
+        "system": "PC",
+        "url": "https://forums.alliedmods.net/showthread.php?t=139069",
+        "source": "https://forums.alliedmods.net/showthread.php?t=139069",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Gang Garrison (Team Fortress 2 Mod)",
+        "system": "PC",
+        "url": "https://www.ganggarrison.com/forums/index.php?topic=28842.0",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Elder Scrolls III: Morrowind",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/morrowind/mods/44989",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim (Alternate Start Reborn)",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/skyrim/mods/74252",
+        "note": "special edition version: https://www.nexusmods.com/skyrimspecialedition/mods/8328",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim (Fushigina Dungeon)",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/skyrim/mods/61962",
+        "note": "roguelike random dungeon generator",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim (Words of Power Shuffler)",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/skyrim/mods/43409",
+        "note": "special edition version: https://www.nexusmods.com/skyrimspecialedition/mods/13757",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda",
+        "system": "NES",
+        "url": "https://sites.google.com/site/zeldarandomizer/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda",
+        "system": "NES",
+        "url": "http://z1r.tetra.ly/",
+        "source": "https://github.com/tetraly/zelda-randomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Zelda II: The Adventure of Link",
+        "system": "NES",
+        "url": "https://bitbucket.org/digshake/z2randomizer/wiki/Home",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: A Link to the Past",
+        "system": "SNES",
+        "url": "https://alttpr.com/",
+        "source": "https://github.com/sporchia/alttp_vt_randomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Link's Awakening DX",
+        "system": "GBC",
+        "url": "https://sites.google.com/view/z4randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Ocarina of Time (Beta Quest)",
+        "system": "N64",
+        "url": "https://www.mediafire.com/folder/8c5ez915mhfww/latest",
+        "note": "loading zones",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Ocarina of Time (Randomizer)",
+        "system": "N64",
+        "url": "https://github.com/AmazingAmpharos/OoT-Randomizer/releases",
+        "source": "https://github.com/AmazingAmpharos/OoT-Randomizer",
+        "note": "unofficial web generator: https://ootrandomizer.com/",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Majora's Mask (Randomizer)",
+        "system": "N64",
+        "url": "https://pastebin.com/M0asDmXy",
+        "note": "randomizes based on file name",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Majora's Mask (Beta Quest)",
+        "system": "N64",
+        "url": "https://www.zeldacodes.org/challenges/beta-quest?seed=gOtslIC33wX1tkMJc59P&randomizer=false",
+        "note": "loading zones - requires a cheat engine supporting Gecko codes",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Oracle of Ages/Oracle of Seasons",
+        "system": "GBC",
+        "url": "https://github.com/jangler/oracles-randomizer/releases",
+        "source": "https://github.com/jangler/oracles-randomizer",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: The Wind Waker (Randomizer)",
+        "system": "GCN",
+        "url": "https://github.com/LagoLunatic/wwrando/releases",
+        "source": "https://github.com/LagoLunatic/wwrando",
+        "note": "open world and randomizes items",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: The Wind Waker (Beta Quest)",
+        "system": "GCN",
+        "url": "https://github.com/CryZe/WindWakerBetaQuest",
+        "source": "https://github.com/CryZe/WindWakerBetaQuest",
+        "note": "loading zones",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Twilight Princess HD (Beta Quest)",
+        "system": "WiiU",
+        "url": "https://www.youtube.com/watch?v=ql7qzX1mPIY",
+        "note": "see video description - direct download: https://www.dropbox.com/s/8o5zyxplj9xrkwm/TPHD_BetaQuest_2.0.zip?dl=0",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Zelda Classic (fangame of The Legend of Zelda)",
+        "system": "PC",
+        "url": "https://www.purezc.net/index.php?page=quests&title=randomizer",
+        "note": "various quests",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda/Metroid (Crossover)",
+        "system": "NES",
+        "url": "https://z1m1.info/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Super Metroid/The Legend of Zelda: A Link to the Past (Crossover)",
+        "system": "SNES",
+        "url": "https://smalttp.speedga.me/",
+        "source": "https://github.com/tewtal/alttp_sm_combo_randomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Doom/Quake series (OBLIGE Level Maker)",
+        "system": "PC",
+        "url": "http://oblige.sourceforge.net/index.html",
+        "source": "https://sourceforge.net/p/oblige/code2/ci/master/tree/",
+        "note": "supports Ultimate DOOM, DOOM 2, TNT Evilution and The Plutonia Experiment, as well as classic HERETIC. Version 4.28 of OBLIGE supports several more games, including HEXEN and QUAKE",
+        "platform": "windows",
+        "old": false
     }
 ]

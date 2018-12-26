@@ -21,7 +21,7 @@
         Use the following search box to search the entire list. You can also click on headers to sort the table.
         </p>
         <p>
-        Note about platforms: Multi = multiplatform (available offline for Windows, Mac OS, and/or Linux). Web = browser-based/online. Win = Windows-only.
+        Note about platforms: Multi = multiplatform (available offline for Windows, Mac OS, and/or Linux). Web = browser-based/online. Win = Windows-only. Mac = Mac OSX only.
         </p>
         <p>
         If a randomizer has a gray background, it has been depreciated and its features are available in other randomizers for the same game.
@@ -43,6 +43,7 @@
                 <td ng-if="randomizer.platform === 'multi'" class="center">Multi</td>
                 <td ng-if="randomizer.platform === 'online'" class="center">Web</td>
                 <td ng-if="randomizer.platform === 'windows'" class="center">Win</td>
+                <td ng-if="randomizer.platform === 'mac'" class="center">Mac</td>
             </tr>
         </table>
     </body>
