@@ -1111,5 +1111,44 @@
         "note": "also available on the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=296802750",
         "platform": "windows",
         "old": false
+    },
+    {
+        "name": "The Mystery of Gensokyo (fangame of Atlantis no Nazo)",
+        "system": "PC",
+        "url": "https://github.com/Ryason55/gnazo_randomizer",
+        "source": "https://github.com/Ryason55/gnazo_randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "GoldenEye 007",
+        "system": "N64",
+        "url": "http://www.shootersforever.com/forums_message_boards/viewtopic.php?t=7267",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Golf",
+        "system": "NES",
+        "url": "https://github.com/gameboy9/golfRando/releases",
+        "source": "https://github.com/gameboy9/golfRando",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Gratuitous Space Battles",
+        "system": "PC",
+        "url": "https://www.moddb.com/mods/gsb-galaxy-generator",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Hollow Knight",
+        "system": "PC",
+        "url": "https://drive.google.com/drive/folders/0B_b9PFqx_PR9QVZSN29ULU5lQkE",
+        "source": "https://github.com/MyEyes/RandomizerMod",
+        "note": "randomizes abilities and charms - requires modding API: https://drive.google.com/drive/folders/0B_b9PFqx_PR9X1ZrWGFxUGdydTg",
+        "platform": "multi",
+        "old": false
     }
 ]
