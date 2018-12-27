@@ -1009,5 +1009,106 @@
         "note": "supports Ultimate DOOM, DOOM 2, TNT Evilution and The Plutonia Experiment, as well as classic HERETIC. Version 4.28 of OBLIGE supports several more games, including HEXEN and QUAKE",
         "platform": "windows",
         "old": false
+    },
+    {
+        "name": "America's Army (Weapon Randomizer)",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/americasarmy2specialforces/mods/112",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Severance: Blade of Darkness (Metal Mod)",
+        "system": "PC",
+        "url": "https://www.moddb.com/mods/metal-mod",
+        "note": "random multiplayer weapons",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Borderlands 2/Borderlands: The Pre-Sequel",
+        "system": "PC",
+        "url": "https://github.com/BLCM/BLCMods",
+        "source": "https://github.com/BLCM/BLCMods",
+        "note": "multiple randomizers in mod bundle",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Breath of Fire II (Painsong)",
+        "system": "SNES",
+        "url": "https://github.com/abyssonym/painsong",
+        "source": "https://github.com/abyssonym/painsong",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Chrono Trigger (Eternal Nightmare)",
+        "system": "SNES",
+        "url": "https://github.com/abyssonym/eternalnightmare",
+        "source": "https://github.com/abyssonym/eternalnightmare",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Civilization V",
+        "system": "PC",
+        "url": "https://forums.civfanatics.com/threads/wip-randomized-unique-components-and-traits.558135/",
+        "source": "https://www.dropbox.com/sh/uuort0mfpx0eqt2/AAAsK1UX6ag2Ro9gOD9h719-a?dl=0",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Digimon World",
+        "system": "PS1",
+        "url": "https://github.com/challenert/digimon_world_randomizer/releases",
+        "source": "https://github.com/challenert/digimon_world_randomizer",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Divinity: Original Sin 2",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/divinityoriginalsin2/mods/110",
+        "note": "also available on the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1155733310",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Donkey Kong Country",
+        "system": "SNES",
+        "url": "https://www.twitch.tv/rainbowsprinklez",
+        "note": "found in info panels - randomizes animal buddies and enemies",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Duke Nukem 3D",
+        "system": "PC",
+        "url": "https://forums.duke4.net/topic/7246-map-order-randomizer/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "ExciteBike",
+        "system": "NES",
+        "url": "https://github.com/gameboy9/ExciteBikeRando/releases",
+        "source": "https://github.com/gameboy9/ExciteBikeRando",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Freeway",
+        "system": "Atari 2600",
+        "url": "https://www.romhacking.net/utilities/720/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Game Dev Tycoon",
+        "system": "PC",
+        "url": "https://forum.greenheartgames.com/t/wip-platform-randomiser-alpha-0-0-5/9021",
+        "note": "also available on the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=296802750",
+        "platform": "windows",
     }
 ]
