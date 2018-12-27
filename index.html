@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="randoApp">
+<html lang="en" data-ng-app="randoApp">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,7 +8,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
         <script src="angjs.js"></script>
     </head>
-    <body ng-controller="RandoCtrl">
+    <body data-ng-controller="RandoCtrl">
         <h1>Video Game Randomizers</h1>
         <h3>About</h3>
         <p>
@@ -28,24 +28,24 @@
         <p>
         If a randomizer has a gray background, it has been depreciated and its features are available in other randomizers for the same game.
         </p>
-        <p class="flex"><label>Search: </label><input ng-model="query" type="text" class="fill"/></p>
+        <p class="flex"><label>Search: </label><input data-ng-model="query" type="text" class="fill"/></p>
         <table class="center">
             <tr>
-                <th><a href="" ng-click="checkSort('system')">System</a></th>
-                <th><a href="" ng-click="checkSort('name')">Game</a></th>
-                <th><a href="" ng-click="checkSort('source')">Source</a></th>
-                <th><a href="" ng-click="checkSort('platform')">Platform</a></th>
+                <th><a href="" data-ng-click="checkSort('system')">System</a></th>
+                <th><a href="" data-ng-click="checkSort('name')">Game</a></th>
+                <th><a href="" data-ng-click="checkSort('source')">Source</a></th>
+                <th><a href="" data-ng-click="checkSort('platform')">Platform</a></th>
             </tr>
-            <tr ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField:reverse" ng-class="randomizer.old ? 'old' : 'new'">
+            <tr data-ng-repeat="randomizer in randomizers | filter:query | orderBy:sortField:reverse" data-ng-class="randomizer.old ? 'old' : 'new'">
                 <td class="maxwide2">{{randomizer.system}}</td>
-                <td ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a> - <a href="" ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p ng-show="isNoteOpen">{{randomizer.note}}</p></td>
-                <td ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a></td>
-                <td ng-if="randomizer.hasOwnProperty('source')" class="center"><a href="{{randomizer.source}}" target="_blank">Source</td>
-                <td ng-if="!randomizer.hasOwnProperty('source')"><a href={{randomizer.source}}></a></td>
-                <td ng-if="randomizer.platform === 'multi'" class="center">Multi</td>
-                <td ng-if="randomizer.platform === 'online'" class="center">Online</td>
-                <td ng-if="randomizer.platform === 'windows'" class="center">Win</td>
-                <td ng-if="randomizer.platform === 'mac'" class="center">Mac</td>
+                <td data-ng-if="randomizer.hasOwnProperty('note')" class="maxwide"><a data-ng-href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a> - <a href="" data-ng-click="isNoteOpen = !isNoteOpen"><em>Notes</em></a><p data-ng-show="isNoteOpen">{{randomizer.note}}</p></td>
+                <td data-ng-if="!randomizer.hasOwnProperty('note')" class="maxwide"><a data-ng-href="{{randomizer.url}}" target="_blank">{{randomizer.name}}</a></td>
+                <td data-ng-if="randomizer.hasOwnProperty('source')" class="center"><a data-ng-href="{{randomizer.source}}" target="_blank">Source</a></td>
+                <td data-ng-if="!randomizer.hasOwnProperty('source')"></td>
+                <td data-ng-if="randomizer.platform === 'multi'" class="center">Multi</td>
+                <td data-ng-if="randomizer.platform === 'online'" class="center">Online</td>
+                <td data-ng-if="randomizer.platform === 'windows'" class="center">Win</td>
+                <td data-ng-if="randomizer.platform === 'mac'" class="center">Mac</td>
             </tr>
         </table>
     </body>
