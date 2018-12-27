@@ -430,7 +430,7 @@
         "old": false
     },
     {
-        "name": "Final Fantasy Mystic Quest (A Terrible Secret)",
+        "name": "Final Fantasy Mystic Quest",
         "system": "SNES",
         "url": "https://github.com/abyssonym/terriblesecret",
         "source": "https://github.com/abyssonym/terriblesecret",
@@ -438,7 +438,7 @@
         "old": false
     },
     {
-        "name": "Final Fantasy Tactics (Rumble Chaos Crashdown)",
+        "name": "Final Fantasy Tactics",
         "system": "PS1",
         "url": "https://github.com/abyssonym/rumble_chaos_crashdown",
         "source": "https://github.com/abyssonym/rumble_chaos_crashdown",
@@ -765,7 +765,6 @@
         "name": "Phantasy Star II",
         "system": "SG",
         "url": "https://github.com/MrStarbird/PSII-Randomizer/releases",
-        "source": "https://github.com/MrStarbird/PSII-Randomizer",
         "platform": "windows",
         "old": false
     },
@@ -773,7 +772,6 @@
         "name": "Phantasy Star IV: The End of the Millennium",
         "system": "SG",
         "url": "https://github.com/MrStarbird/PStar4-Randomizer/releases",
-        "source": "https://github.com/MrStarbird/PStar4-Randomizer",
         "platform": "windows",
         "old": false
     },
@@ -1035,7 +1033,7 @@
         "old": false
     },
     {
-        "name": "Breath of Fire II (Painsong)",
+        "name": "Breath of Fire II",
         "system": "SNES",
         "url": "https://github.com/abyssonym/painsong",
         "source": "https://github.com/abyssonym/painsong",
@@ -1043,7 +1041,7 @@
         "old": false
     },
     {
-        "name": "Chrono Trigger (Eternal Nightmare)",
+        "name": "Chrono Trigger",
         "system": "SNES",
         "url": "https://github.com/abyssonym/eternalnightmare",
         "source": "https://github.com/abyssonym/eternalnightmare",
@@ -1148,6 +1146,259 @@
         "url": "https://drive.google.com/drive/folders/0B_b9PFqx_PR9QVZSN29ULU5lQkE",
         "source": "https://github.com/MyEyes/RandomizerMod",
         "note": "randomizes abilities and charms - requires modding API: https://drive.google.com/drive/folders/0B_b9PFqx_PR9X1ZrWGFxUGdydTg",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Hollow Knight (Enemy Randomizer)",
+        "system": "PC",
+        "url": "https://github.com/Kerr1291/EnemyRandomizer/releases",
+        "source": "https://github.com/Kerr1291/EnemyRandomizer",
+        "note": "requires modding API: https://drive.google.com/drive/folders/0B_b9PFqx_PR9X1ZrWGFxUGdydTg",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Homeworld 2",
+        "system": "PC",
+        "url": "https://www.moddb.com/mods/capturable-fleets-mod",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "La-Mulana (2005 Original)",
+        "system": "PC",
+        "url": "https://github.com/progre/lmorandomizer/releases",
+        "source": "https://github.com/progre/lmorandomizer",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "La-Mulana (2011 Remake)",
+        "system": "PC",
+        "url": "https://github.com/thezerothcat/LaMulanaRandomizer/releases",
+        "source": "https://github.com/thezerothcat/LaMulanaRandomizer",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Legacy of the Wizard",
+        "system": "NES",
+        "url": "https://github.com/MrStarbird/LotW-Randomizer/releases",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Lufia II: Rise of the Sinistrals",
+        "system": "SNES",
+        "url": "https://abyssonym.wordpress.com/2017/09/12/lufia-2-terror-wave-new-randomizer/",
+        "source": "https://github.com/abyssonym/terrorwave",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Mike Tyson's Punch-Out!!",
+        "system": "NES",
+        "url": "https://authorblues.github.io/mtporandomizer/",
+        "source": "https://github.com/authorblues/mtporandomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "NES Open Tournament Golf",
+        "system": "NES",
+        "url": "https://gist.github.com/TurbulentEddie/4e8fb8e52f64a99dfeb0",
+        "source": "https://gist.github.com/TurbulentEddie/4e8fb8e52f64a99dfeb0",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Ori and the Blind Forest: Definitive Edition",
+        "system": "PC",
+        "url": "https://www.orirando.com/",
+        "source": "https://github.com/sigmasin/OriDERandomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Rabi-Ribi",
+        "system": "PC",
+        "url": "https://wcko87.github.io/rabiribi-randomizer/",
+        "source": "https://github.com/wcko87/revised-rabi-ribi-randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Rad Racer",
+        "system": "NES",
+        "url": "https://github.com/gameboy9/RadRacerRando/releases",
+        "source": "https://github.com/gameboy9/RadRacerRando",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Resident Evil HD Remaster",
+        "system": "PC",
+        "url": "http://benn-gaming.co.uk/rerandomizer.html",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Scourge of War: Gettysburg",
+        "system": "PC",
+        "url": "http://www.norbsoftdev.net/forum/garniers-campaign-mod/63173-gcm-offline-scenario-generator-for-spmp",
+        "source": "https://github.com/philipmcg/gcm-offline",
+        "note": "original online-version seems to be down: http://www.norbsoftdev.net/forum/modifications/44306-gcm-singleplayer-campaign",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Secret of Mana",
+        "system": "SNES",
+        "url": "https://secretofmanaancientcave.blogspot.com/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Shining Force II",
+        "system": "SG",
+        "url": "https://forums.shiningforcecentral.com/viewtopic.php?t=15502",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Sonic the Hedgehog",
+        "system": "SMS",
+        "url": "https://ssjtroly.github.io/sonic1-sms-randomizer/",
+        "source": "https://github.com/ssjtroly/sonic1-sms-randomizer",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "Soul Blazer",
+        "system": "SNES",
+        "url": "https://github.com/LeHulk1/RandoBlazer",
+        "source": "https://github.com/LeHulk1/RandoBlazer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Star Fox",
+        "system": "SNES",
+        "url": "http://qubedstudios.rustedlogic.net/PeppysTool.htm",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Stardew Valley",
+        "system": "PC",
+        "url": "https://stardewvalley.curseforge.com/projects/stardew-valley-randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "State of Decay",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/stateofdecay/mods/135",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Super Meat Boy",
+        "system": "PC",
+        "url": "https://github.com/negative-seven/smb-randomizer/releases",
+        "source": "https://github.com/negative-seven/smb-randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "System Shock 2",
+        "system": "PC",
+        "url": "https://www.systemshock.org/index.php?topic=67.0",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Terraria",
+        "system": "PC",
+        "url": "http://artemis251.fobby.net/stuff/terrariaMusic.html",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Tetris",
+        "system": "NES",
+        "url": "https://drive.google.com/drive/folders/19NklVLPD1cF2cygbJSIgyvGfKUl7eCVg",
+        "note": "overrides normal RNG",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The 7th Saga",
+        "system": "SNES",
+        "url": "https://github.com/gameboy9/7thSagaRando/releases",
+        "source": "https://github.com/gameboy9/7thSagaRando",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Goonies II",
+        "system": "NES",
+        "url": "https://goonies2r.com/en/start",
+        "source": "https://github.com/sporchia/goonies2r",
+        "platform": "online",
+        "old": false
+    },
+    {
+        "name": "The Guardian Legend",
+        "system": "NES",
+        "url": "https://www.romhacking.net/utilities/1145/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Need for Speed",
+        "system": "PC",
+        "url": "http://randtrack.sourceforge.net/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "The Talos Principle",
+        "system": "PC",
+        "url": "https://github.com/apple1417/Talos-Sigil-Randomizer/releases",
+        "source": "https://github.com/apple1417/Talos-Sigil-Randomizer",
+        "note": "also available on the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1244163099",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Ultima IV: Quest of the Avatar",
+        "system": "NES",
+        "url": "https://github.com/Gilmok/U4Rando/",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Wario Land 4",
+        "system": "GBA",
+        "url": "https://github.com/WillTheGameDecoder/WL4-Randomizer/releases",
+        "source": "https://github.com/WillTheGameDecoder/WL4-Randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "XCOM: Enemy Unknown",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/xcom/mods/499",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Yu-Gi-Oh! Forbidden Memories",
+        "system": "PS1",
+        "url": "https://www.speedrun.com/yugiohfm/resources",
+        "note": "named 'complete randomizer' under Patches",
         "platform": "multi",
         "old": false
     }
