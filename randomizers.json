@@ -1401,5 +1401,189 @@
         "note": "named 'complete randomizer' under Patches",
         "platform": "multi",
         "old": false
+    },
+    {
+        "name": "Borderlands 2 (Gun/Item Randomizer)",
+        "system": "PC",
+        "url": "https://www.se7ensins.com/forums/threads/borderlands-2-gun-item-randomizer-mod.1269836/",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "Borderlands: The Pre-Sequel (Gun Randomizer)",
+        "system": "PC",
+        "url": "https://www.mediafire.com/file/gst4yd3gzuly36y/TPS+gun+randomizer.CT",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "Dark Souls II (Items)",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/darksouls2/mods/743",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Dragon Warrior",
+        "system": "NES",
+        "url": "https://www.romhacking.net/utilities/1147/",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "EarthBound (Ancient Cave)",
+        "system": "SNES",
+        "url": "https://github.com/abyssonym/bizarre_dimension",
+        "source": "https://github.com/abyssonym/bizarre_dimension",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "EarthBound (Reshuffler)",
+        "system": "SNES",
+        "url": "https://earthboundcentral.com/reshuffler/",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Fire Emblem: The Binding Blade/Fire Emblem/Fire Emblem: The Sacred Stones",
+        "system": "GBA",
+        "url": "https://serenesforest.net/forums/index.php?/topic/46886-ferandomizer-ver-py/",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "Fire Emblem: The Binding Blade/Fire Emblem/Fire Emblem: The Sacred Stones",
+        "system": "GBA",
+        "url": "https://github.com/lushen124/Universal-GBA-FE-Randomizer-Windows/releases",
+        "source": "https://github.com/lushen124/Universal-GBA-FE-Randomizer-Windows",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Fire Emblem",
+        "system": "GBA",
+        "url": "https://serenesforest.net/forums/index.php?/topic/46885-ephraim-and-kloks-fe7-randomizer/",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Mega Man Battle Network 3: White Version",
+        "system": "GBA",
+        "url": "https://github.com/samfin/mmbn3-random",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "Metroid (Item Randomizer)",
+        "system": "NES",
+        "url": "https://www.romhacking.net/utilities/1250/",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Pokemon Emerald Version",
+        "system": "GBA",
+        "url": "http://artemis251.fobby.net/downloads/emerald/",
+        "source": "http://artemis251.fobby.net/downloads/emerald/",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "Pokemon Red/Blue Version",
+        "system": "GB",
+        "url": "http://artemis251.fobby.net/downloads/redblue/",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "Samsara (Doom Mod - Monsters)",
+        "system": "PC",
+        "url": "https://zandronum.com/forum/viewtopic.php?t=2424",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Super Mario Bros. 3",
+        "system": "NES",
+        "url": "https://github.com/CujoIHSV/SMB3RR/releases",
+        "source": "https://github.com/CujoIHSV/SMB3RR",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Super Mario Bros. 3",
+        "system": "NES",
+        "url": "https://ssjtroly.github.io/smb3-nes-web-randomizer/",
+        "source": "https://github.com/ssjtroly/smb3-nes-web-randomizer",
+        "platform": "online",
+        "old": true
+    },
+    {
+        "name": "Super Mario RPG: Legend of the Seven Stars",
+        "system": "SNES",
+        "url": "https://github.com/abyssonym/smrpg_gbarp",
+        "source": "https://github.com/abyssonym/smrpg_gbarp",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "Super Metroid",
+        "system": "SNES",
+        "url": "https://github.com/Dessyreqt/smrandomizer/releases",
+        "source": "https://github.com/Dessyreqt/smrandomizer",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "Super Metroid (Item Randomizer)",
+        "system": "SNES",
+        "url": "https://itemrando.supermetroid.run/",
+        "source": "https://github.com/tewtal/itemrandomizerweb",
+        "platform": "online",
+        "old": true
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/skyrim/mods/63933",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "The Goonies II",
+        "system": "NES",
+        "url": "https://www.romhacking.net/utilities/1247/",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "The Legend of Zelda: A Link to the Past",
+        "system": "SNES",
+        "url": "https://dessyreqt.github.io/alttprandomizer/",
+        "source": "https://github.com/Dessyreqt/alttprandomizer",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "The Legend of Zelda: Ocarina of Time (Item Randomizer)",
+        "system": "N64",
+        "url": "https://www.speedrun.com/oot/thread/6w905",
+        "platform": "multi",
+        "old": true
+    },
+    {
+        "name": "The Ultimate Doom/Doom II (SLIGE)",
+        "system": "PC",
+        "url": "https://web.archive.org/web/20040404021558/http://www.doomworld.com/slige/",
+        "platform": "windows",
+        "old": true
+    },
+    {
+        "name": "The Ultimate Doom/Doom II (ORO-RANDOM-DOOM)",
+        "system": "PC",
+        "url": "https://forum.zdoom.org/viewtopic.php?f=19&t=45378",
+        "platform": "windows",
+        "old": true
     }
 ]
