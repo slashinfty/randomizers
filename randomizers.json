@@ -1110,5 +1110,6 @@
         "url": "https://forum.greenheartgames.com/t/wip-platform-randomiser-alpha-0-0-5/9021",
         "note": "also available on the Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=296802750",
         "platform": "windows",
+        "old": false
     }
 ]
