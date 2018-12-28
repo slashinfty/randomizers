@@ -883,7 +883,7 @@
         "system": "NES",
         "url": "http://z1r.tetra.ly/",
         "source": "https://github.com/tetraly/zelda-randomizer",
-        "note": "major changes, difficulty settings, progressive updates",
+        "note": "major changes, difficulty settings, progressive upgrades",
         "platform": "online",
         "old": false
     },
@@ -1585,5 +1585,12 @@
         "url": "https://forum.zdoom.org/viewtopic.php?f=19&t=45378",
         "platform": "windows",
         "old": true
+    },
+    {
+        "name": "Cave Story",
+        "system": "PC",
+        "url": "https://shru.itch.io/cave-story-randomizer",
+        "platform": "windows",
+        "old": false
     }
 ]
