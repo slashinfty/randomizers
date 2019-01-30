@@ -404,7 +404,7 @@
         "source": "https://github.com/abyssonym/beyondchaos",
         "note": "extensive severe changes for casual play",
         "platform": "multi",
-        "old": false
+        "old": true
     },
     {
         "name": "Final Fantasy IX (Meteor On FFIX)",
@@ -673,6 +673,7 @@
         "name": "Mega Man Battle Network 5: Team Colonel/Mega Man Battle Network 6 (Cybeast Falzar & Cybeast Gregar)",
         "system": "GBA",
         "url": "https://forums.therockmanexezone.com/mmbn-randomizer-t15216.html",
+		"source": "https://github.com/Prof9/mmbn-randomizer",
         "platform": "multi",
         "old": false
     },
@@ -1585,5 +1586,21 @@
         "url": "https://forum.zdoom.org/viewtopic.php?f=19&t=45378",
         "platform": "windows",
         "old": true
-    }
+    },
+	{
+		"name": "Wario Land 3",
+		"system": "GBC",
+		"url": "https://github.com/AaronDobbe/wl3-randomizer/releases",
+		"source": "https://github.com/AaronDobbe/wl3-randomizer",
+		"platform": "multi",
+		"old": false
+	},
+	{
+		"name": "Final Fantasy VI (Beyond Chaos EX)",
+		"system": "SNES",
+		"url": "https://github.com/subtractionsoup/beyondchaos",
+		"source": "https://github.com/subtractionsoup/beyondchaos",
+		"platform": "multi",
+		"old": false
+	}
 ]
