@@ -1609,5 +1609,13 @@
         "url": "https://shru.itch.io/cave-story-randomizer",
         "platform": "windows",
         "old": false
-    }
+    },
+	{
+		"name": "Dark Souls III (Enemies)",
+		"system": "PC",
+		"url": "https://www.nexusmods.com/darksouls3/mods/318",
+		"source": "https://github.com/Jacks8n/StraySouls",
+		"platform": "windows",
+		"old": false
+	}
 ]
