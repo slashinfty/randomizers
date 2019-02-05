@@ -1617,5 +1617,12 @@
 		"source": "https://github.com/Jacks8n/StraySouls",
 		"platform": "windows",
 		"old": false
+	},
+	{
+		"name": "Final Fantasy Tactics Advance",
+		"system": "GBA",
+		"url": "http://ffhacktics.com/smf/index.php?topic=12184.0",
+		"platform": "windows",
+		"old": false
 	}
 ]
