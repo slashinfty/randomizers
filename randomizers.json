@@ -1624,5 +1624,12 @@
 		"url": "http://ffhacktics.com/smf/index.php?topic=12184.0",
 		"platform": "windows",
 		"old": false
+	},
+	{
+		"name": "Final Fantasy Legend III",
+		"system": "GB",
+		"url": "https://drive.google.com/drive/folders/1hObDfO8CbrwCqw_7EEbMHN2qJPaCXeHI",
+		"platform": "multi",
+		"old": false
 	}
 ]
