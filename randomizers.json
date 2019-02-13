@@ -345,7 +345,7 @@
         "system": "SNES",
         "url": "https://www.romhacking.net/hacks/957/",
         "note": "rougelike - english translation: https://talking-time.net/showthread.php?t=13303",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -513,7 +513,7 @@
         "system": "NES",
         "url": "https://www.romhacking.net/hacks/1996/",
         "note": "area shuffler - randomly selects areas from SMB1, SMB2J, and VSSMB",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -610,7 +610,7 @@
         "system": "NES",
         "url": "http://www.geocities.jp/misty_earn/RM2endless.zip",
         "note": "rougelike",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -618,7 +618,7 @@
         "system": "NES",
         "url": "https://www.himaq5.xyz/rock5easily/archive/rock3endless.zip",
         "note": "rougelike",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -626,7 +626,7 @@
         "system": "NES",
         "url": "https://www.himaq5.xyz/rock5easily/archive/rock4endless.zip",
         "note": "rougelike",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -634,7 +634,7 @@
         "system": "NES",
         "url": "https://www.himaq5.xyz/rock5easily/archive/rock5endless.zip",
         "note": "rougelike",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -651,7 +651,7 @@
         "url": "http://bin.smwcentral.net/u/24848/mm6-weapon-randomizer-v0.1.zip",
         "source": "https://gist.github.com/Raidenthequick/d701eb2c936a28f4d23bf330d8b192bc",
         "note": "ZIP file contains two BPS files, patch on a NTSC-U Mega Man 6 ROM to play",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -681,7 +681,7 @@
         "name": "Rockman 3: Winternight (Mod - Endless Version)",
         "system": "NES",
         "url": "https://www.romhacking.net/hacks/4106/",
-        "platform": "windows",
+        "platform": "multi",
         "old": false
     },
     {
@@ -1479,7 +1479,7 @@
         "name": "Metroid (Item Randomizer)",
         "system": "NES",
         "url": "https://www.romhacking.net/utilities/1250/",
-        "platform": "windows",
+        "platform": "multi",
         "old": true
     },
     {
@@ -1555,7 +1555,7 @@
         "name": "The Goonies II",
         "system": "NES",
         "url": "https://www.romhacking.net/utilities/1247/",
-        "platform": "windows",
+        "platform": "multi",
         "old": true
     },
     {
@@ -1631,5 +1631,13 @@
 		"url": "https://drive.google.com/drive/folders/1hObDfO8CbrwCqw_7EEbMHN2qJPaCXeHI",
 		"platform": "multi",
 		"old": false
-	}
+	},
+    {
+        "name": "Crystalis",
+        "system": "NES",
+        "url": "https://crystalisrandomizer.com/stable/index",
+        "source": "https://github.com/shicks/crystalis-randomizer",
+        "platform": "online",
+        "old": false
+    }
 ]
