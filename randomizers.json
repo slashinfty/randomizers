@@ -1587,22 +1587,22 @@
         "platform": "windows",
         "old": true
     },
-	{
-		"name": "Wario Land 3",
-		"system": "GBC",
-		"url": "https://github.com/AaronDobbe/wl3-randomizer/releases",
-		"source": "https://github.com/AaronDobbe/wl3-randomizer",
-		"platform": "multi",
-		"old": false
-	},
-	{
-		"name": "Final Fantasy VI (Beyond Chaos EX)",
-		"system": "SNES",
-		"url": "https://github.com/subtractionsoup/beyondchaos",
-		"source": "https://github.com/subtractionsoup/beyondchaos",
-		"platform": "multi",
-		"old": false
-	},
+    {
+        "name": "Wario Land 3",
+        "system": "GBC",
+        "url": "https://github.com/AaronDobbe/wl3-randomizer/releases",
+        "source": "https://github.com/AaronDobbe/wl3-randomizer",
+        "platform": "multi",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy VI (Beyond Chaos EX)",
+        "system": "SNES",
+        "url": "https://github.com/subtractionsoup/beyondchaos",
+        "source": "https://github.com/subtractionsoup/beyondchaos",
+        "platform": "multi",
+        "old": false
+    },
     {
         "name": "Cave Story",
         "system": "PC",
@@ -1610,34 +1610,51 @@
         "platform": "windows",
         "old": false
     },
-	{
-		"name": "Dark Souls III (Enemies)",
-		"system": "PC",
-		"url": "https://www.nexusmods.com/darksouls3/mods/318",
-		"source": "https://github.com/Jacks8n/StraySouls",
-		"platform": "windows",
-		"old": false
-	},
-	{
-		"name": "Final Fantasy Tactics Advance",
-		"system": "GBA",
-		"url": "http://ffhacktics.com/smf/index.php?topic=12184.0",
-		"platform": "windows",
-		"old": false
-	},
-	{
-		"name": "Final Fantasy Legend III",
-		"system": "GB",
-		"url": "http://www.romhacking.net/hacks/4351/",
-		"platform": "multi",
-		"old": false
-	},
+    {
+        "name": "Dark Souls III (Enemies)",
+        "system": "PC",
+        "url": "https://www.nexusmods.com/darksouls3/mods/318",
+        "source": "https://github.com/Jacks8n/StraySouls",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy Tactics Advance",
+        "system": "GBA",
+        "url": "http://ffhacktics.com/smf/index.php?topic=12184.0",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Final Fantasy Legend III",
+        "system": "GB",
+        "url": "http://www.romhacking.net/hacks/4351/",
+        "platform": "multi",
+        "old": false
+    },
     {
         "name": "Crystalis",
         "system": "NES",
         "url": "https://crystalisrandomizer.com/stable/index",
         "source": "https://github.com/shicks/crystalis-randomizer",
         "platform": "online",
+        "old": false
+    },
+    {
+        "name": "The Legend of Zelda: Majora's Mask (Randomizer)",
+        "system": "N64",
+        "url": "https://www.mediafire.com/file/98iaiwad7a9958k/MM-Randomiser-2019-02-14.zip/file",
+        "source": "https://github.com/az64/mm-rando",
+        "note": "Item, music, enemy randomizer",
+        "platform": "windows",
+        "old": false
+    },
+    {
+        "name": "Super Adventure Island II",
+        "system": "SNES",
+        "url": "https://github.com/abyssonym/sai2_rando",
+        "source": "https://github.com/abyssonym/sai2_rando",
+        "platform": "multi",
         "old": false
     }
 ]
